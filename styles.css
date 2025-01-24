@@ -30,5 +30,6 @@
 
 .recipe .recipe-link {
     text-decoration: none;
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
     color: aquamarine;
 }
