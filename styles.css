@@ -1,35 +1,56 @@
 * {
-    background-color: blanchedalmond;
+    background-color: antiquewhite;
+    color: rgb(104, 104, 104);
 }
 
 .section {
+    padding: 20px;
     background-color: white;
 }
 
 .page-index {
+    margin: 30px 20px;
     text-align: center;
-}
-
-.title {
-
-}
-
-.description {
-
 }
 
 .page-body {
+    margin: 20px;
+}
 
+.title {
+    background-color: inherit;
+    font-size: 30px;
+}
+
+.description {
+    background-color: inherit;
 }
 
 .recipe-list {
+    background-color: inherit;
     list-style: none;
     text-decoration: none;
     text-align: center;
+    margin: 0px;
+}
+
+.recipe {
+
+    background-color: blanchedalmond;
+    padding: 8px;
+    margin: 5px auto;
 }
 
 .recipe .recipe-link {
+    background-color: inherit;
     text-decoration: none;
     font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
-    color: aquamarine;
+}
+
+.detail {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 3px;
+    background-color: rgb(97, 97, 97);
+    color: white;
 }
