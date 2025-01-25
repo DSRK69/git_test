@@ -27,6 +27,9 @@
 }
 
 .recipe-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: inherit;
     list-style: none;
     text-decoration: none;
@@ -35,7 +38,6 @@
 }
 
 .recipe {
-
     background-color: blanchedalmond;
     padding: 8px;
     margin: 5px auto;
